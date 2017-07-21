@@ -1,0 +1,9 @@
+num = int(input('Digite um numero longo'))
+
+soma = 0
+
+while num != 0:
+    soma = (num % 10) + soma
+    num = num // 10
+
+print('Soma do numero {}'.format(soma))

@@ -1,0 +1,10 @@
+tip = str(input("De Celsius (c) ou de Fahrenheit (f)"))
+
+if tip == 'c':
+    temp = float(input('Digite a temperatura: '))
+    transf = (temp*1.8)+32
+elif tip == 'f':
+    temp = float(input('Digite a temperatura: '))
+    transc = (temp - 32)/1.8
+else:
+    print("Erro de opção")

@@ -1,0 +1,10 @@
+seg = int(input('Qual a quantidade de segundos?'))
+
+tDias = seg // 86400
+segResto = seg % 86400
+tHoras = segResto // 3600
+segResto = segResto % 3600
+tMin = segResto // 60
+segResto = segResto % 60
+
+print('Total de dias: {}  Total de horas: {}  Total de minutos: {} Total de segundos: {}'.format(tDias, tHoras, tMin, segResto))
